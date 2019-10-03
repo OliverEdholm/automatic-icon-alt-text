@@ -2,6 +2,9 @@ import sys
 import pickle
 
 import cv2
+import matplotlib.pyplot as plt
+
+from src.auto_alt_text import preprocess_image
 
 
 def main():
@@ -15,7 +18,9 @@ def main():
         model = pickle.load(f)
 
     print('getting alt text')
-    print(model.get_alt_text(inference_image))
+    alt_texts = model.get_alt_text(inference_image)
+
+    print(alt_texts)
 
 
 if __name__ == '__main__':
