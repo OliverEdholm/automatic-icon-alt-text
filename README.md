@@ -1,7 +1,7 @@
 # Automatic icon alt-text
 
 ### Summary
-Automatically providing alt text to graphical symbols by doing nearest neighbor search on simple shape image descriptors. Every nearest neighbor candidate has an alt text associated with it. The dataset is automatically created by using the method I implemented here: https://github.com/OliverEdholm?tab=repositories
+Automatically providing alt text to graphical symbols by doing nearest neighbor search on simple shape image descriptors. Every nearest neighbor candidate has an alt text associated with it. The dataset is automatically created by using the method I implemented here: https://github.com/OliverEdholm/automatic-web-icon-dataset
 
 ### Running
 #### Building model
